@@ -1,12 +1,18 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import store from './store';
+import ElementUI from 'element-ui';
+// import Mock from './mock'
+// import axios from './axios'
 
 Vue.config.productionTip = false;
+Vue.use(ElementUI);
 
-new Vue({
+let vue = new Vue({
+  el: '#app',
   router,
-  store,
-  render: h => h(App),
-}).$mount('#app');
+  template: '<App/>',
+  components: { App }
+});
+
+export default vue;
