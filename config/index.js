@@ -1,4 +1,5 @@
 const path = require('path')
+const proxyConfig = require('./proxyConfig')
 
 module.exports = {
   dev: {
@@ -6,7 +7,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: proxyConfig.proxyList,
     disableHostCheck: true,
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
