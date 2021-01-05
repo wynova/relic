@@ -13,7 +13,7 @@
     "array-includes": "^3.0.3",
     "array-uniq": "^2.1.0",
     "atob": "^2.1.2",
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "axios-mock-adapter": "^1.10.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-plugin-syntax-jsx": "^6.18.0",
